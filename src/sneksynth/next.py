@@ -702,6 +702,9 @@ def save_wav(path: str, audio: np.ndarray, sr: int) -> None:
         pcm: np.ndarray[Any, np.dtype[np.signedinteger]] = (np.clip(audio, -1.0, 1.0) * 32767.0).astype(np.int16)
         f.writeframes(pcm.tobytes())
 
-if __name__ == "__main__":
+def demo_next():
     mix: np.ndarray[Tuple[Any], np.dtype[Any]] = build_mix(main_bars=64, add_final_bar=True)
     save_wav(OUT_PATH, mix, SAMPLE_RATE)
+
+if __name__ == "__main__":
+    demo_next()

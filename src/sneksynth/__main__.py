@@ -22,21 +22,14 @@ Output:
 """
 
 
-
-from typing import Any
-
-from numpy import dtype, ndarray
-
-from sneksynth.demo import build_mix
-from sneksynth.io import save_wav
+from sneksynth.next import demo_next
 
 
-def run_demo() -> None:
+def main():
     """
-    Run the demo and save the output to a WAV file.
+    Main function to run the SnekSynth demo.
     """
-    mix: ndarray[tuple[Any, ...], dtype[Any]] = build_mix()
-    save_wav("demo.wav", mix, 44100)
+    demo_next()
 
 if __name__ == "__main__":
-    run_demo()
+    main()
