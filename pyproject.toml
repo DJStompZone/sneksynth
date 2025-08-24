@@ -1,13 +1,14 @@
 [project]
 name = "sneksynth"
 version = "0.1.0"
-description = ""
+description = "A seemingly simple, self-sufficient serpentine sonic synthesizer script."
 authors = [
     {name = "DJ Stomp",email = "85457381+DJStompZone@users.noreply.github.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.10,<4.0"
 dependencies = [
+    "numpy (>=2.3.2,<3.0.0)"
 ]
 
 [tool.poetry]

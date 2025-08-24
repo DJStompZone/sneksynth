@@ -1,6 +1,6 @@
 # Sneksynth
 
-Sneksynth is a Python-based synthesizer project designed for audio enthusiasts and developers interested in sound synthesis and digital audio processing.
+A seemingly simple, self-sufficient serpentine sonic synthesizer script.
 
 ## Features
 

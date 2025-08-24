@@ -3,6 +3,8 @@
 """
 SnekSynth
 
+A seemingly simple, self-sufficient serpentine sonic synthesizer script.
+
 Features:
   - Voices:
       - Bass: sine with longer tail
