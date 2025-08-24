@@ -45,9 +45,11 @@ A seemingly simple, self-sufficient serpentine sonic synthesizer script.
 
 ## Usage
 
-Import Sneksynth in your Python project and start creating sounds:
+To try the demo, install SnekSynth with pip, and run as a module:
 
-### TODO: Add example code here
+```bash
+python -m sneksynth
+```
 
 ## Contributing
 
