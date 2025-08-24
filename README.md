@@ -1,6 +1,6 @@
 # Sneksynth
 
-A seemingly simple, self-sufficient serpentine sonic synthesizer script.
+A surprisingly simple, self-sufficient serpentine sonic synthesizer script.
 
 ## Features
 
